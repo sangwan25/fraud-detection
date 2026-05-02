@@ -1,5 +1,5 @@
 # Financial Fraud Detection System
-**July 2022**
+
 
 A machine learning project that analyzes large-scale financial transaction data to detect fraudulent activity using SQL, Python, and ML models.
 
