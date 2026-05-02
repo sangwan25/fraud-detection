@@ -1,0 +1,16 @@
+
+FRAUD DETECTION REPORT
+Generated: 2026-05-02 14:42
+========================================
+Total Transactions Analyzed : 1000
+Total Fraud Cases Detected  : 68
+Fraud Rate                  : 6.8%
+Average Fraud Amount        : 377.97
+
+Top Countries by Fraud:
+country  frauds
+     RU      26
+     NG      24
+     IN      10
+     UK       5
+     US       3
