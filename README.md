@@ -39,19 +39,18 @@ Financial fraud causes billions in losses every year. This project builds an end
 ## Project Structure
 
 fraud_detection/
-├── data/
-│   └── transactions.csv       # Generated transaction dataset (1000 rows)
-├── src/
-│   ├── generate_data.py       # Creates synthetic transaction data
-│   ├── sql_analysis.py        # SQL queries to find anomalies
-│   ├── train_model.py         # Trains Random Forest + Logistic Regression
-│   └── report_generator.py   # Auto-generates fraud summary reports
-├── reports/
-│   ├── fraud_summary.csv      # Key fraud metrics
-│   ├── fraud_report.txt       # Full text report
-│   └── rf_model.pkl           # Saved trained model
-├── requirements.txt
-└── README.md
+- data - transactions.csv       # Generated transaction dataset (1000 rows)
+  src/
+   - generate_data.py       # Creates synthetic transaction data
+   - sql_analysis.py        # SQL queries to find anomalies
+   - train_model.py         # Trains Random Forest + Logistic Regression
+   - report_generator.py   # Auto-generates fraud summary reports
+- reports/
+   - fraud_summary.csv      # Key fraud metrics
+   - fraud_report.txt       # Full text report
+   - rf_model.pkl           # Saved trained model
+- requirements.txt
+- README.md
 
 
 ---
